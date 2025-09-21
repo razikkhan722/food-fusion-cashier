@@ -105,7 +105,7 @@ cashier/
 │   │   └── common/         # Generic/common widgets
 │   │
 │   ├── context/            # React Context providers
-│   │   └── ThemeContext.jsx
+│   │   └── CashierContext.jsx
 │   │
 │   ├── features/           # Business logic modules
 │   │   ├── auth/           
