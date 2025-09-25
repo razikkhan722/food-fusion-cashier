@@ -17,6 +17,7 @@ const Button = ({
     full: "w-full h-[48px] rounded-[32px] px-6 py-3",
   };
 
+  
   // Colors mapping
   const colorStyles = {
     blue: "bg-blue-600 text-white hover:bg-blue-700",
