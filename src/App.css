@@ -2,8 +2,8 @@
 
 
 * {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
   box-sizing: border-box;
   /* font-family: 'Poppins', sans-serif; */
   -webkit-font-smoothing: antialiased;
@@ -24,6 +24,10 @@ body {
   font-family: poppins;
 }
 
+::-webkit-scrollbar{
+  display: block;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 0s 600000s, color 0s 600000s !important;
@@ -32,4 +36,15 @@ input:-webkit-autofill:focus {
 html,
 body {
   overflow: hidden;
+}
+
+.left-sidebar ul {
+  width: 160px;
+}
+/*  */
+.sidebar-li:hover{
+  background-color: var(--cashier-main-color);
+}
+.sidebar-li:hover .sidebar-icon {
+    background: #db9f66;
 }
